@@ -1,3 +1,5 @@
+
+<script src="https://cdn.tailwindcss.com"></script>
 <h1 align="center"> Login Auth - ReactJS Projects </h1>
 
 
@@ -28,10 +30,12 @@
 #### To see the login authentication app in action, navigate to the Portfolio section of the site and open the Login Auth app.
 
 ## Screenshots
-<
-<img src="signup.png" width="30%"/>
-<img src="signup.png" width="30%"/>
-<img src="signup.png" width="30%"/>
+<div class="grid col-row-3">
+<img src="signup.png" />
+<img src="login.png" />
+<img src="loggedin.png"/>
+</div>
+
 
 # `Sign Up page`
 ![](signup.png)
