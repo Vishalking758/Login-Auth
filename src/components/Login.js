@@ -12,6 +12,7 @@ import { signInWithEmailAndPassword,} from "firebase/auth";
 import { auth } from "../config/Firebase";
 
 
+
 function Login() {
   const redirect = useNavigate();
   const [formError, setFormError] = useState("");
@@ -20,6 +21,12 @@ function Login() {
     mail: "",
     password: "",
   });
+    auth.onAuthStateChanged((user) => {
+      if (user) {
+        redirect("/LoggedIn");
+      }
+    });
+
 
   const submission = () => {
     if (!value.mail || !value.password) {
@@ -37,6 +44,7 @@ function Login() {
       })
       .catch((err) => {
         setFormError(err.message);
+        setDisabledBtn(false);
       });
   };
 

@@ -7,6 +7,7 @@ import {
   FormContainer,
   Button,
 } from "./FormComponents";
+import { auth } from "../config/Firebase";
 import { Link, useNavigate } from "react-router-dom";
 import {
   createUserWithEmailAndPassword,
@@ -52,6 +53,14 @@ function SignUp() {
         console.log();
       });
   };
+ 
+    auth.onAuthStateChanged((user) => {
+      if (user) {
+        redirect("/LoggedIn");
+        
+      }
+    });
+
 
   return (
     <FormContainer
@@ -68,7 +77,7 @@ function SignUp() {
             />
 
             <InputText
-              label="Mail"
+              label="Email"
               onChange={(event) =>
                 setValue((prev) => ({ ...prev, email: event.target.value }))
               }
