@@ -31,17 +31,6 @@
 
 ## Screenshots
 
-
-<img src="signup.png"  width-33%/>
-
-## `Login Page`
-<img src="login.png"  width-33%/>
-
-## `User Name And Log Out page`
-<img src="loggedin.png"  width-33%/>
-
-
-
 # `Sign Up page`
 ![](signup.png)
 
