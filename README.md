@@ -4,11 +4,11 @@
 
 ## Installation
 #### In order to use this project in your own application, you will need to install the following dependencies:
-*  `inslall npm`
-*  `inslall Firebase`
-*  `inslall tailwind`
-*  `inslall postcss-import`
-*  `inslall react-router-dom`
+*  `install npm`
+*  `install Firebase`
+*  `install tailwind`
+*  `install postcss-import`
+*  `install react-router-dom`
 ## Configuration
 #### Fill Data To Config/Firebase.js
 * apiKey:              ` "Data",`
