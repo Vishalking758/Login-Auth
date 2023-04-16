@@ -31,7 +31,7 @@
 
 ## Screenshots
 
-## `Sign Up page`
+
 <img src="signup.png"  width-33%/>
 
 ## `Login Page`
