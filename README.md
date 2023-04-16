@@ -30,18 +30,16 @@
 #### To see the login authentication app in action, navigate to the Portfolio section of the site and open the Login Auth app.
 
 ## Screenshots
-<div width-33%>
+
 ## `Sign Up page`
-<img src="signup.png" />
-</div>
-<div width-33%>
+<img src="signup.png"  width-33%/>
+
 ## `Login Page`
-<img src="login.png" />
-</div>
-<div width-33%>
+<img src="login.png"  width-33%/>
+
 ## `User Name And Log Out page`
-<img src="loggedin.png"/>
-</div>
+<img src="loggedin.png"  width-33%/>
+
 
 
 # `Sign Up page`
