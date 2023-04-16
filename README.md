@@ -1,4 +1,4 @@
-<h1 style="color:red;"> Login Auth - ReactJS Projects </h1>
+<h1 style="color:blue;font-size:46px;"> Login Auth - ReactJS Projects </h1>
 
 #### This project showcases a login authentication app built with ReactJS, Firebase, Tailwind CSS, and React Router DOM.
 
