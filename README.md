@@ -1,5 +1,5 @@
 
-<script src="https://cdn.tailwindcss.com"></script>
+
 <h1 align="center"> Login Auth - ReactJS Projects </h1>
 
 
