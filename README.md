@@ -1,6 +1,6 @@
 <h1 align="center"> Login Auth - ReactJS Projects </h1>
 
-<img src="signup.png"/>
+<img src="signup.png" width="20%"/>
 
 #### This project showcases a login authentication app built with ReactJS, Firebase, Tailwind CSS, and React Router DOM.
 
